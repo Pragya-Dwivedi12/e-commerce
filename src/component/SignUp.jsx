@@ -181,11 +181,6 @@ export default function SignUp() {
                     <input type="date" name="date" placeholder='Enter Your Date' value={date} onChange={(e) => setDate(e.target.value)} />
                 </div><br /><br /> */}
 
-                        <div className="NameName">
-                            <label className="NameName3">Address.:-</label>
-                            <input type="address" className='Name11111' name="address" placeholder='Enter Your Address' value={address} onChange={(e) => setAddress(e.target.value)} />
-                        </div><br />
-
 
                         <div className="NameName4">
                             <button type='submit' className="clickme">Submit</button>
@@ -199,8 +194,7 @@ export default function SignUp() {
                         </div>
 
                         <div className="NameName5">
-                            <button type='submit' className="clickme1">YES</button>
-                            <button type='submit' className="clickme1">NO</button>
+                            <Link to="/Login" className="link2">Login</Link>
                         </div>
                     </div>
                 </div>

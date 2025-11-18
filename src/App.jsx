@@ -14,23 +14,24 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './component/Header'
 import Contact from './component/Contact'
 import Login from './component/Login'
-
+import Cart from './component/Cart'
 export default App;
 
 function App() {
  
 return (
     <BrowserRouter>
-     <Header/>
+     
     <ProductProvider>
+      <Header/>
     <Routes>
        
       <Route path="/SignUp" element={<SignUp/>}/>
       <Route path="/" element={<ProductCard/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/" element={<Home/>}/>
-      <Route path="Login" element={<Login/>}/>
-                             
+      <Route path="/Login" element={<Login/>}/>
+      <Route path="/Cart" element={<Cart/>}/>                    
       </Routes>
 
      
