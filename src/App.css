@@ -687,21 +687,7 @@ body {
   color: white;
   width: 200px;
 }
-
-/* .left-button, .right-button{
-  height: 50px;
-  width: 50px;
-  background-color: gray, transparent;
-  border: 1px solid black;
-  border-radius: 50px;
-  /* margin-top: 51px; */
-
-/* .right-button{
-  position: absolute;
-  top: 0;
-  right: 50;
-} */
-*/ .nav-button:hover {
+.nav-button:hover {
   background-color: gainsboro;
 }
 
